@@ -58,7 +58,7 @@
   "homepage": "https://github.com/davewang/react-local-storage#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "access": "public" 
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",
