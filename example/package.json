@@ -1,0 +1,44 @@
+{
+  "name": "react-local-storage-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "build:android": "react-native build-android --extra-params \"--no-daemon --console=plain -PreactNativeArchitectures=arm64-v8a\"",
+    "build:ios": "react-native build-ios --mode Debug",
+    "windows": "npx @react-native-community/cli run-windows",
+    "test:windows": "jest --config jest.config.windows.js"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-native": "0.78.0",
+    "react-native-windows": "0.78.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "0.78.0",
+    "@react-native/metro-config": "0.78.0",
+    "@react-native/typescript-config": "0.78.0",
+    "@rnx-kit/jest-preset": "^0.1.17",
+    "@types/react": "^19.0.0",
+    "react-native-builder-bob": "^0.40.8",
+    "react-native-monorepo-config": "^0.1.9"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "react-native-windows": {
+    "init-windows": {
+      "name": "ReactLocalStorageExample",
+      "namespace": "ReactLocalStorageExample",
+      "template": "cpp-app"
+    }
+  }
+}
