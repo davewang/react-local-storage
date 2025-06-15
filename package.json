@@ -1,6 +1,6 @@
 {
-  "name": "react-local-storage",
-  "version": "0.1.0",
+  "name": "@davewang/react-local-storage",
+  "version": "0.2.0",
   "description": "react-local-storage",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -57,7 +57,8 @@
   },
   "homepage": "https://github.com/davewang/react-local-storage#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public" 
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",
