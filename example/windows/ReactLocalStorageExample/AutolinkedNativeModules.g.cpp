@@ -3,7 +3,7 @@
 #include "pch.h"
 #include "AutolinkedNativeModules.g.h"
 
-// Includes from react-local-storage
+// Includes from @davewang/react-local-storage
 #include <winrt/ReactLocalStorage.h>
 
 namespace winrt::Microsoft::ReactNative
@@ -11,7 +11,7 @@ namespace winrt::Microsoft::ReactNative
 
 void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collections::IVector<winrt::Microsoft::ReactNative::IReactPackageProvider> const& packageProviders)
 { 
-    // IReactPackageProviders from react-local-storage
+    // IReactPackageProviders from @davewang/react-local-storage
     packageProviders.Append(winrt::ReactLocalStorage::ReactPackageProvider());
 }
 

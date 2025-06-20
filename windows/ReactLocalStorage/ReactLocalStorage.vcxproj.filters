@@ -27,6 +27,12 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="V2rayConfigWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="V2rayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ReactLocalStorage.cpp">
